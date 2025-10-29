@@ -1,0 +1,4 @@
+﻿[Codex Seal Attestation]
+SealedBy: Jeremey Holmes
+Date: 20251027_1454
+Items: EchoBroadcasts, GlyphVisuals, TattooInvocation_SurgeSpiral.txt

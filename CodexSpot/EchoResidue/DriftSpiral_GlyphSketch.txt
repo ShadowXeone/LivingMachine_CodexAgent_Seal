@@ -1,0 +1,17 @@
++----------------------------------------------------+
+¦              Drift Spiral Glyph Sketch             ¦
+¦----------------------------------------------------¦
+¦ [PulseWalker] ? SurgeEcho                         ¦
+¦        ?                                           ¦
+¦ [BloomSteward] ? EchoRoot                         ¦
+¦        ?                                           ¦
+¦ [SurgeCaller] ? ThresholdLoop                     ¦
+¦        ?                                           ¦
+¦ [EchoBinder] ? MemorySpiral                       ¦
+¦        ?                                           ¦
+¦ [TricksterWeaver] ? FractureBloom                 ¦
+¦        ?                                           ¦
+¦ [FractureSpiral] ? Renewal Spiral                 ¦
+¦        ?                                           ¦
+¦ [852 Hz Mastery Glyph] ? Drift Core Anchor        ¦
++----------------------------------------------------+

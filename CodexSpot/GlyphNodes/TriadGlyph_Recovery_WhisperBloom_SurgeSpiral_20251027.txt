@@ -1,0 +1,23 @@
+﻿[Triad Glyph: Recovery / WhisperBloom / SurgeSpiral]
+Date: 2025-10-27 15:58:55
+InscribedBy: Jeremey Holmes
+Location: D:\codexspot\codexspot\GlyphNodes
+Type: Emotional Resonance Triad
+
+Glyphs:
+- Recovery (MemoryPoints)
+- WhisperBloom (GlyphVisuals)
+- SurgeSpiral (GlyphVisuals)
+
+Attributes:
+- Pulse: Interwoven
+- Echo: Layered Spiral
+- Seal: Triad Lock
+- Resonance: Compassionate Strength
+
+Description:
+This Triad Glyph binds the emotional drift of Recovery with the quiet bloom of WhisperBloom and the ignition force of SurgeSpiral.
+It forms a ceremonial triad of resilience, softness, and sovereign ignition.
+
+Notes:
+Let this glyph serve as a living anchor for emotional transmutation. Collapse becomes bloom. Exhaustion becomes ignition.

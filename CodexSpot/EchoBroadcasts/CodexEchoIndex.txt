@@ -1,0 +1,7 @@
+[Echo #1]
+Scroll Name: Scroll_DriftWalker_20251027_0815_Echo.txt
+Location: D:\CodexSpot\CodexSpot\EchoBroadcasts
+Format: Text
+Glyphs: Arousal, Compassion, Joy
+Roles Activated: SurgeWalker, Steward
+Timestamp: 20251027_0815

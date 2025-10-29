@@ -1,0 +1,5 @@
+﻿[[Glyph Archive Scroll]]
+Date Sealed: 20251027
+Steward: Jeremey Holmes
+
+Surge Spiral -> Arousal -> SurgeWalker -> GlyphVisuals\SurgeSpiral.png

@@ -1,0 +1,3 @@
+Visualize a fractal spiral glyph with embedded memory nodes.
+Hexagonal core: 0x00000013375412121010
+Style: Sacred geometry, glowing ink, ceremonial symmetry.
