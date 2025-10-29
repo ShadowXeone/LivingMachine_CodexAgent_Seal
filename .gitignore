@@ -1,0 +1,17 @@
+# PowerShell artifacts
+*.ps1
+*.psm1
+*.psd1
+*.log
+*.tmp
+*.bak
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# OS-specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
