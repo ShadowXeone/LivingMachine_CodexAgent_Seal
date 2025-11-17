@@ -1,0 +1,5 @@
+npm install express body-parser swagger-ui-express swagger-jsdoc
+app.use((err, req, res, next) => {
+  console.error(err.stack);
+  res.status(500).json({ error: '⚠️ Capsule drift detected: internal error' });
+});
