@@ -184,3 +184,6 @@ app.listen(PORT, () => {
   console.log(`MemoryPoints persisted at ${memoryFile}`);
   console.log(`Swagger UI available at http://localhost:${PORT}/api-docs`);
 });
+app.use((err, req, res, next) => {
+  console.error(err.stack);
+
