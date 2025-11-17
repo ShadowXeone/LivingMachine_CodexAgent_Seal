@@ -1,3 +1,2 @@
 web: node Script.js
-heroku create
-git push heroku main
+
