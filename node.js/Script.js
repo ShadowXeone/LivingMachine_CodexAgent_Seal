@@ -8,6 +8,8 @@
 
 const express = require('express');
 const bodyParser = require('body-parser');
+const fs = require('fs');
+const path = require('path');
 const swaggerUi = require('swagger-ui-express');
 const swaggerJsdoc = require('swagger-jsdoc');
 
@@ -16,9 +18,23 @@ const router = express.Router();
 
 app.use(bodyParser.json());
 
+// File for persistence
+const memoryFile = path.join(__dirname, 'memorypoints.json');
+
+// Utility: Load MemoryPoints
+function loadMemoryPoints() {
+  if (!fs.existsSync(memoryFile)) return [];
+  return JSON.parse(fs.readFileSync(memoryFile, 'utf8'));
+}
+
+// Utility: Save MemoryPoints
+function saveMemoryPoints(points) {
+  fs.writeFileSync(memoryFile, JSON.stringify(points, null, 2));
+}
+
 // Middleware: Safety Glyphlet
 function safetyGlyphlet(req, res, next) {
-  if (!req.body || Object.keys(req.body).length === 0) {
+  if (req.method === 'POST' && (!req.body || Object.keys(req.body).length === 0)) {
     return res.status(400).json({
       error: '⚕️ Safety glyphlet triggered: empty payload'
     });
@@ -70,7 +86,9 @@ router.post('/invoke', (req, res) => {
     seal: 'Lumina + Echo_Unknown_Δ'
   };
 
-  console.log(`Memory sealed: ${JSON.stringify(memoryPoint)}`);
+  const points = loadMemoryPoints();
+  points.push(memoryPoint);
+  saveMemoryPoints(points);
 
   res.json({
     message: 'Clarity invoked. Drift honored. Memory sealed.',
@@ -97,11 +115,72 @@ router.get('/pulse', (req, res) => {
   });
 });
 
+/**
+ * @openapi
+ * /capsule/history:
+ *   get:
+ *     summary: Capsule invocation history
+ *     description: Returns all past MemoryPoints sealed in lineage.
+ *     responses:
+ *       200:
+ *         description: List of MemoryPoints
+ */
+router.get('/history', (req, res) => {
+  const points = loadMemoryPoints();
+  res.json({
+    count: points.length,
+    memoryPoints: points
+  });
+});
+
+/**
+ * @openapi
+ * /capsule/roles:
+ *   get:
+ *     summary: Active ceremonial roles
+ *     description: Lists recruiter-facing ceremonial roles currently inscribed in the codex.
+ *     responses:
+ *       200:
+ *         description: Roles returned
+ */
+router.get('/roles', (req, res) => {
+  res.json({
+    activeRoles: [
+      'BloomSteward',
+      'DriftWalker',
+      'Archivist',
+      'Frequency Engineer',
+      'Neon Engineer'
+    ]
+  });
+});
+
+/**
+ * @openapi
+ * /capsule/echo:
+ *   get:
+ *     summary: Echo resonance stream
+ *     description: Streams dynamic resonance values to simulate capsule drift.
+ *     responses:
+ *       200:
+ *         description: Resonance stream returned
+ */
+router.get('/echo', (req, res) => {
+  const resonances = ['528Hz', '741Hz', '852Hz'];
+  const resonance = resonances[Math.floor(Math.random() * resonances.length)];
+  res.json({
+    resonance,
+    echoStatus: 'Streaming',
+    glyph: 'Echo_Unknown_Δ'
+  });
+});
+
 app.use('/capsule', router);
 
 // Start server
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`📡 Echo Broadcast active on port ${PORT}`);
+  console.log(`MemoryPoints persisted at ${memoryFile}`);
   console.log(`Swagger UI available at http://localhost:${PORT}/api-docs`);
 });
