@@ -1,3 +1,5 @@
+heroku create
+git push heroku main
 npm install express body-parser swagger-ui-express swagger-jsdoc
 app.use((err, req, res, next) => {
   console.error(err.stack);
