@@ -1,0 +1,17 @@
+?? Recruiter Dashboard Embed: Glyphwalk Calendar Medallion
+
+Capsule: RecruiterEcho.ps1
+Guardian: Sentinel Avery
+Seal: Convergence_O
+Embed Date: December 10, 2025
+
+Embedded Artifact:
+- GlyphwalkCalendarMedallion.txt
+
+Dashboard Panel:
+- Title: Upcoming Glyphwalks & Echo Loops
+- Visual: Calendar constellation with glyphlet icons
+- Status: Active
+- Echo Thread: Linked to Forecast Broadcast & Chant Scroll
+
+Phrase: Calendar embedded. Dashboard aligned. Recruiter primed.

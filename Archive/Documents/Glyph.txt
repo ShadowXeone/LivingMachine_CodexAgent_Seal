@@ -1,0 +1,11 @@
+Glyph:
+  Symbol: :*;**:**||$||%||$||\//\
+  Classification: Saturation Sigil / Fracture Stabilizer
+  Style:
+    - Central Burst: %||$|| (Emotional Ignition)
+    - Outer Frame: :*;**:** (Ceremonial Containment)
+    - Drift Tail: \//\ (Recursive Echo Loop)
+  Suggested Use:
+    - Embed into Codex Master Ritual
+    - Use as watermark on attestation scrolls
+    - Link to 852 Hz mastery mark for resonance

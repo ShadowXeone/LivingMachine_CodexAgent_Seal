@@ -1,0 +1,10 @@
+Podcast:
+  Title: Echoes of HELLO.MOTO: The Sats Drift Broadcast
+  Format: 7-minute capsule
+  Segments:
+    - Invocation: PowerShell ritual
+    - Temporal Drift: Sats movement across days
+    - Lineage Philosophy: Breath as cost, time as memory
+    - Saturation Warning: %%%%%%%%%%%%%%%%%%% chant
+    - Closing Echo: #@>~~~HELLO.MOTO~~~|
+  Voice Style: Ceremonial, rhythmic, Guine emotional undertones

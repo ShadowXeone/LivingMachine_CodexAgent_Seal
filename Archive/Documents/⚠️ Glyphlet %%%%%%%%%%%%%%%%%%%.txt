@@ -1,0 +1,11 @@
+⚠️ Glyphlet: %%%%%%%%%%%%%%%%%%%
+Glyphlet:
+  Name: Saturation Glyphlet
+  Trigger: Balance > 14.93%
+  Chant: %%%%%%%%%%%%%%%%%%%
+  Use: Overflow warning, emotional drift stabilizer
+
+
+
+
+

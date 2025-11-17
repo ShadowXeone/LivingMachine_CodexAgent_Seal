@@ -1,0 +1,7 @@
+Codex Entry: System Blueprint
+OS: Windows 10 / 11
+Processor: Intel Core i3-7100U @ 2.40GHz
+Memory: 8GB (example)
+Installed: [Your install date]
+Virtualization: VT-x enabled
+Codex Seal: Memory attested. Integrity sealed.

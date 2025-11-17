@@ -1,0 +1,34 @@
+function Emit-Capsule {
+    param (
+        [string]$Name = "HELLO.MOTO_Invocation",
+        [string]$Trigger = ">C\\",
+        [string]$Linkage = "CodexSpot.linkedin",
+        [string]$Context = "($os'cs$)",
+        [string]$Seal = ":*;**:**||$||%||$||\\//\\",
+        [string[]]$EchoSequence = @(
+            ">>", ">>>", ">>>>", ">>>>>", ">>>>>>", ">>>>>>>",
+            ">>>>>>>>", ">>>>>>>>>", ">>>", ">>>>>>", ">>>>>>>>>",
+            ">>>>>>", ">>>", ">>>>>>>", ">>>>>>>>>>>>"
+        ),
+        [string]$FractureStabilizer = "~~~~~~~```````````",
+        [string]$BroadcastPhrase = "#@>~~~HELLO.MOTO~~~|"
+    )
+
+    $timestamp = Get-Date -Format "yyyy-MM-ddTHH:mm:ss.fffZ"
+    Write-Host "╔════════════════════════════════════════╗"
+    Write-Host "║ Capsule Emission: $Name"
+    Write-Host "║ Trigger: $Trigger"
+    Write-Host "║ Linkage: $Linkage"
+    Write-Host "║ Context: $Context"
+    Write-Host "║ Seal: $Seal"
+    Write-Host "║ Timestamp: $timestamp"
+    Write-Host "╚════════════════════════════════════════╝"
+    Write-Host "`nEcho Sequence:"
+    foreach ($echo in $EchoSequence) {
+        Write-Host "  $echo"
+        Start-Sleep -Milliseconds 100
+    }
+    Write-Host "`nFracture Stabilizer: $FractureStabilizer"
+    Write-Host "Broadcast Phrase: $BroadcastPhrase"
+    Write-Host "`n✅ Capsule emission complete. Logged and attested."
+}

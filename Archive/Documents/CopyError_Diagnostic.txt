@@ -1,0 +1,19 @@
+﻿Diagnostic run: 2025-10-27 15:06:42
+--- End of existing PS error buffer ---
+
+DriveLetter FileSystem FreeGB
+----------- ---------- ------
+          X                 0
+
+
+Write test: Failed - Access is denied
+Copy: Failed - The media is write protected.
+
+Copy-Item : The media is write protected.
+
+At line:2 char:3
++   Copy-Item -Path 'C:\CodexBackups\*' -Destination 'X:\CodexBackups'  ...
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (CodexEchoIndex.txt:FileInfo) [Copy-Item], IOException
+    + FullyQualifiedErrorId : CopyDirectoryInfoItemIOError,Microsoft.PowerShell.Commands.CopyItemCommand
+ 

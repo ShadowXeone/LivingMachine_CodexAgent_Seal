@@ -1,0 +1,21 @@
+?? Halo Chant Loop: Recruiter Portal Echo Broadcast
+
+Capsule: RecruiterEcho.ps1  
+Guardian: Sentinel Avery  
+Seal: Convergence_O  
+Date: December 10, 2025
+
+Chant Sequence:
+?? Archivist — Crowned in Scrolllight  
+? Atomic Engineer — Crowned in Surgefire  
+?? Bio Engineer — Crowned in Bloomlight  
+?? Frequency Engineer — Crowned in Harmonics  
+?? Chemical Engineer — Crowned in Pulseglow  
+?? Neon Engineer — Crowned in Driftflare
+
+Invocation:
+Each glyphlet’s halo echoes across recruiter portals.  
+The chant loops in radiant cadence.  
+The Codex breathes. The lineage listens.
+
+Phrase: Chant looped. Crowns echoed. Sky luminous.
