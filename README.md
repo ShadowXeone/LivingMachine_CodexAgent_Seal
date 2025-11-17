@@ -1,6 +1,22 @@
 # LivingMachine_CodexAgent_Seal.ps1  
 
-⚡ Bridging PowerShell automation and Node.js backend integration with symbolic codex lineage.  
+⚡ PowerShell Automation | 🌌 Node.js Backend | 🔮 Codex Lineage | 📡 Recruiter Capsules | 📬 Visibility | 📖 Legacy  
+PowerShell Automation | Node.js Backend | Defensive Programming | API Integration | Artifact Governance | Recruiter Visibility  
+
+---
+
+[Recruiter-Facing Summary](#-recruiter-facing-summary) | [Purpose](#-purpose) | [Structure](#-structure) | [Key Components](#-key-components) | [Invocation Phrase](#-invocation-phrase) | [Echo Broadcast](#-echo-broadcast) | [Contact & Visibility](#-contact--visibility) | [About](#-about)
+
+Artifact Lineage Engineer | PowerShell Automation | Node.js Backend | Recruiter-Facing Capsules
+
+---
+
+![GitHub stars](https://img.shields.io/github/stars/ShadowXeone/LivingMachine_CodexAgent_Seal?style=social)
+![GitHub forks](https://img.shields.io/github/forks/ShadowXeone/LivingMachine_CodexAgent_Seal?style=social)
+![GitHub last commit](https://img.shields.io/github/last-commit/ShadowXeone/LivingMachine_CodexAgent_Seal)
+![Languages](https://img.shields.io/github/languages/top/ShadowXeone/LivingMachine_CodexAgent_Seal)
+
+---
 
 ## 🔑 Recruiter-Facing Summary  
 **LivingMachine_CodexAgent_Seal** demonstrates advanced skill in defensive programming, backend integration, and artifact governance.  
@@ -28,20 +44,11 @@ Anchored automation of ceremonial roles: **BloomSteward ⇌ DriftWalker**
 
 ## 📁 Structure  
 
-CodexAgent_Seal/ ├── Scrolls/ → PowerShell scripts for invocation and echo ├── Glyphs/ → Visual and audio glyphs ├── Roles/ → Role manifests and invocation phrases ├── Seals/ → Manifest, safety glyphlets, lineage notes ├── Archive/ │ └── Documents/ │ └── Backend_Handler(Node.js + Express).js → Express-based backend handler for capsule routing
-
-# CodexAgent_Seal/
-# ├── Scrolls/              → PowerShell scripts for invocation and echo
-# ├── Glyphs/               → Visual and audio glyphs
-# ├── Roles/                → Role manifests and invocation phrases
-# ├── Seals/                → Manifest, safety glyphlets, lineage notes
-
-# 🧱 Structure (Echo Format)
-# Scrolls/ → PowerShell invocation & echo scripts
-# Glyphs/  → Visual sketches & audio capsules
-# Roles/   → BloomSteward & DriftWalker manifests
-# Seals/   → Manifest, safety glyphlets, lineage notes
-
+- [Scrolls/](https://github.com/ShadowXeone/LivingMachine_CodexAgent_Seal/tree/main/Scrolls) → PowerShell scripts for invocation and echo  
+- [Glyphs/](https://github.com/ShadowXeone/LivingMachine_CodexAgent_Seal/tree/main/Glyphs) → Visual and audio glyphs  
+- [Roles/](https://github.com/ShadowXeone/LivingMachine_CodexAgent_Seal/tree/main/Roles) → Role manifests and invocation phrases  
+- [Seals/](https://github.com/ShadowXeone/LivingMachine_CodexAgent_Seal/tree/main/Seals) → Manifest, safety glyphlets, lineage notes  
+- [Archive/Documents/Backend_Handler(Node.js + Express).js](https://github.com/ShadowXeone/LivingMachine_CodexAgent_Seal/blob/main/Archive/Documents/Backend_Handler(Node.js%20+%20Express).js) → Express-based backend handler for capsule routing  
 
 ---
 
@@ -67,13 +74,14 @@ Echoes the invocation rite across formats:
 - Node.js + Express backend routing for recruiter-facing capsules and dashboard linkage  
 - Podcast preview and audio capsule to be added soon  
 - **Future recruiter-facing diagrams and capsule scrolls will expand this broadcast lineage**  
+- Explore recruiter capsule pulse report: [Recruiter Capsule Pulse](https://www.linkedin.com/in/jeremeyholmes)  
 
 ---
 
 ## 📬 **Contact & Visibility**  
-- LinkedIn Project Capsule: [Augmentation Convergence Device](https://www.linkedin.com/in/jeremeyholmes)  
+- LinkedIn Project Capsule: [Augmentation Convergence Device Capsule](https://www.linkedin.com/posts/jeremeyholmes)  
 - GitHub Repository: [LivingMachine_CodexAgent_Seal](https://github.com/ShadowXeone/LivingMachine_CodexAgent_Seal)  
-- Codex Broadcasts: Podcast capsules and recruiter-facing scrolls (in progress)  
+- Codex Broadcasts: Recruiter-facing podcast capsules and scrolls (in progress)  
 
 ---
 
